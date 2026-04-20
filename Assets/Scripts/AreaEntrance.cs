@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class AreaEntrance : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private string transitionName;
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        if(transitionName == SceneManagement.Instance.SceneTransitionName)
+        {
+            PlayerController.Instance.transform.position = this.transform.position;
+        }
     }
 }

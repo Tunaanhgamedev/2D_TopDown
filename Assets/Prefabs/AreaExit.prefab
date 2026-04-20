@@ -66,7 +66,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.027085781, y: 0.04062879}
+  m_Offset: {x: 0.0811677, y: 0.0066064}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -77,7 +77,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0541716, y: 2.1105192}
+  m_Size: {x: 1.2706785, y: 1.9063853}
   m_EdgeRadius: 0
 --- !u!114 &5962982804284443081
 MonoBehaviour:
@@ -91,6 +91,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc66b4af316d8e94f8912beda96518f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: 
+  sceneTransitionName: 
 --- !u!1 &8927385653596858915
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,3 +137,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff2350a02d8b0746a9b32633a0631b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transitionName: 
