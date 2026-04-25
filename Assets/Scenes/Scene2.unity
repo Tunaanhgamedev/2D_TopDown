@@ -527,6 +527,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ghost (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.48
@@ -2591,17 +2595,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1628331490}
     m_Modifications:
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: restTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: angleSpread
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: projectilesPerBurst
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_Name
       value: Ghost
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.22
+      value: -5.01
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.53
+      value: -4.96
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2656,6 +2672,10 @@ PrefabInstance:
     - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_Name
       value: Ghost (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3059,6 +3079,10 @@ PrefabInstance:
     - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_Name
       value: Ghost (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.x
