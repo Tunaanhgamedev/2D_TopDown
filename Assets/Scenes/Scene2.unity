@@ -2461,19 +2461,11 @@ PrefabInstance:
       objectReference: {fileID: 395202435}
     - target: {fileID: 2302924434140726609, guid: 1981fd692a02ab94a86c912f0b0abbea, type: 3}
       propertyPath: m_ChildCameras.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2412744004362638914, guid: 1981fd692a02ab94a86c912f0b0abbea, type: 3}
       propertyPath: m_Name
       value: Camera
-      objectReference: {fileID: 0}
-    - target: {fileID: 3111011302868455308, guid: 1981fd692a02ab94a86c912f0b0abbea, type: 3}
-      propertyPath: orthographic size
-      value: 8.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3836232738113628375, guid: 1981fd692a02ab94a86c912f0b0abbea, type: 3}
-      propertyPath: m_Lens.OrthographicSize
-      value: 8.5
       objectReference: {fileID: 0}
     - target: {fileID: 7529789251691112979, guid: 1981fd692a02ab94a86c912f0b0abbea, type: 3}
       propertyPath: m_LocalPosition.x
