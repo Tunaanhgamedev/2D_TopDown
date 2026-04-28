@@ -684,7 +684,7 @@ GameObject:
   - component: {fileID: 7131547701636743059}
   - component: {fileID: 4446551283173783890}
   m_Layer: 5
-  m_Name: Stamina Image (2)
+  m_Name: Image (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1213,7 +1213,7 @@ GameObject:
   - component: {fileID: 776630545051456643}
   - component: {fileID: 3748007215924843585}
   m_Layer: 5
-  m_Name: Stamina Image (1)
+  m_Name: Image (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2187,7 +2187,7 @@ GameObject:
   - component: {fileID: 1625945488368567570}
   - component: {fileID: 3265306908687849135}
   m_Layer: 5
-  m_Name: Stamina Image
+  m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
