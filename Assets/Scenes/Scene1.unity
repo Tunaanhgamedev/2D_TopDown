@@ -379,11 +379,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.955563
+      value: -5.33
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.3952829
+      value: -0.83
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2287,11 +2287,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.7520566
+      value: 18.08
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6047173
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2613,11 +2613,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.745562
+      value: 16.05
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.525283
+      value: -7.83
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22405,7 +22405,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff2350a02d8b0746a9b32633a0631b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionName: EEntry
+  transitionName: 2Entry
 --- !u!61 &3877940565421110639
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -22737,7 +22737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Scene2
-  sceneTransitionName: WEntry
+  sceneTransitionName: 1Entry
 --- !u!1001 &6397604230299077719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22752,11 +22752,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.355562
+      value: -3.39
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.485283
+      value: -8.83
       objectReference: {fileID: 0}
     - target: {fileID: 7063618138397743782, guid: 134695283a87e914da038583a73e3f79, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23049,6 +23049,14 @@ PrefabInstance:
     - target: {fileID: 7951735198102429886, guid: 3cf5f7407685c1b4db4515c0ab16b415, type: 3}
       propertyPath: m_Name
       value: UICanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759342874535710834, guid: 3cf5f7407685c1b4db4515c0ab16b415, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8759342874535710834, guid: 3cf5f7407685c1b4db4515c0ab16b415, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
