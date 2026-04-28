@@ -290,7 +290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 4
-  dashSpeed: 4
+  dashSpeed: 5
   myTrailRenderer: {fileID: 6518283782972354498}
   weaponCollider: {fileID: 5455440034973807419}
 --- !u!95 &5711108175645386476
