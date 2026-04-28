@@ -23064,7 +23064,7 @@ GameObject:
   - component: {fileID: 3910464216658420246}
   - component: {fileID: 5962982803866654840}
   m_Layer: 0
-  m_Name: AreaExit
+  m_Name: AreaExit 2 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

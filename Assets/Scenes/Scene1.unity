@@ -22582,7 +22582,7 @@ GameObject:
   - component: {fileID: 3877940565421110639}
   - component: {fileID: 5860644766549643009}
   m_Layer: 0
-  m_Name: AreaExit
+  m_Name: AreaExit 1 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

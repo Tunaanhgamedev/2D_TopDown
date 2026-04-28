@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 8549ce3de1ba1c449b12b6f4ad2e4288, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -275,7 +275,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_SortAtRoot: 0
 --- !u!114 &1406205861923065564
 MonoBehaviour:
@@ -292,7 +292,7 @@ MonoBehaviour:
   moveSpeed: 20
   particleOnHitPrefabVFX: {fileID: 2099628724988221825, guid: 8b0c3527cc4df104cb80877b26c6a436, type: 3}
   isEnemyProjectile: 1
-  projectileRange: 10
+  projectileRange: 12
 --- !u!114 &1689553903071352027
 MonoBehaviour:
   m_ObjectHideFlags: 0
