@@ -3,7 +3,6 @@
 
 ![Unity](https://img.shields.io/badge/Unity-2022.3%20LTS-black?style=flat-square&logo=unity)
 ![C#](https://img.shields.io/badge/C%23-Programming-blue?style=flat-square&logo=c-sharp)
-![Firebase](https://img.shields.io/badge/Firebase-Database%20%26%20Auth- yellow?style=flat-square&logo=firebase)
 
 ## 📖 Giới thiệu
 **2D Top-Down** là trò chơi nhập vai từ trên xuống được phát triển với **Unity 2022.3**.   Trò chơi có phong cách đồ họa Pixel Art cổ điển, kết hợp với cơ chế điều khiển mượt mà và hệ thống lưu trữ dữ liệu đám mây hiện đại.   Dự án này được xây dựng với mục tiêu tạo ra một khuôn khổ vững chắc cho trò chơi 2D với các yếu tố quản lý tài khoản người chơi.
