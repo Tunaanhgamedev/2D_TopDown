@@ -1,55 +1,188 @@
-# 2D_TopDown
-# Dự án trò chơi 2D từ trên xuống 🎮
+# 🎮 2D Top-Down Shooter (Unity)
 
-![Unity](https://img.shields.io/badge/Unity-2022.3%20LTS-black?style=flat-square&logo=unity)
-![C#](https://img.shields.io/badge/C%23-Programming-blue?style=flat-square&logo=c-sharp)
+> A polished 2D top-down action game built with Unity, focusing on smooth gameplay, scalable architecture, and modern rendering techniques.
 
-## 📖 Giới thiệu
-**2D Top-Down** là trò chơi nhập vai từ trên xuống được phát triển với **Unity 2022.3**. Trò chơi có phong cách đồ họa Pixel Art cổ điển, kết hợp với cơ chế điều khiển mượt mà và hệ thống lưu trữ dữ liệu đám mây hiện đại. Dự án này được xây dựng với mục tiêu tạo ra một khuôn khổ vững chắc cho trò chơi 2D với các yếu tố quản lý tài khoản người chơi.
+<p align="center">
+  <img src="docs/demo.gif" width="600"/>
+</p>
 
-## 🚀 Tính năng nổi bật
+---
 
-### 🎮 Lối chơi & Đồ họa
-* **Hệ thống điều khiển từ trên xuống:** Di chuyển linh hoạt theo 8 hướng cùng hệ thống xử lý va chạm chính xác.
-* **Camera Tracking (Cinemachine):** Hệ thống camera thông minh bám sát nhân vật, xử lý mượt mà các góc quay và giới hạn màn hình (Confiner).
-* **Trình tạo bóng tùy chỉnh:** Tích hợp ShaderLab và HLSL để tạo hiệu ứng hình ảnh độc đáo và tối ưu hóa hiệu suất kết xuất 2D.
+## 🚀 Overview
 
-### ⌨️ Điều khiển tắt (Controls)
-* **W / A / S / D:** Di chuyển nhân vật.
-* **Chuột trái:** Tấn công.
-* **Phím Space:** Dash.
-* **Phím số 1 / 2 / 3 / 4 / 5:** Thay đổi vũ khí hoặc đổi sang tay bình thường.
+This project is a **top-down shooter prototype** designed to demonstrate:
 
-## 📂 Cấu trúc thư mục chính
-```text
-📦 2D_TopDown
- ┣ 📂 Assets
- ┃ ┣ 📂 Animations         # Các file Animation & Animator Controllers
- ┃ ┣ 📂 Materials          # Các vật liệu (Materials) cho game
- ┃ ┣ 📂 Prefabs            # Các object đã đóng gói sẵn (Player, Địch, Môi trường...)
- ┃ ┣ 📂 Scenes             # Chứa Main Scene, Login Scene, v.v.
- ┃ ┣ 📂 Scriptable Objects # Dữ liệu cấu hình game lưu dưới dạng ScriptableObject
- ┃ ┣ 📂 Scripts            # Mã nguồn C# xử lý logic game, Firebase Auth, Database
- ┃ ┣ 📂 Settings           # Cấu hình các tính năng và package (như Input System, URP...)
- ┃ ┣ 📂 Sprites            # Tài nguyên hình ảnh 2D, Pixel Art
- ┃ ┣ 📂 TextMesh Pro       # Tài nguyên font chữ và giao diện UI text
- ┃ ┗ 📂 Tilemap            # Dữ liệu map, lưới tile cho môi trường
- ┣ 📂 Packages             # Quản lý các Unity packages (Cinemachine, 2D Tools...)
- ┗ 📂 ProjectSettings      # Cấu hình dự án Unity chung
+* Clean and maintainable **Unity architecture**
+* Smooth and responsive **player movement system**
+* Advanced **camera control using Cinemachine**
+* Flexible and reusable **game systems**
 
-## ⚙️ Hướng dẫn Cài đặt & Triển khai
-### Yêu cầu hệ thống
-* **Unity Editor: ** Phiên bản 2022.3 LTS (Bắt buộc để tránh lỗi tương thích).
-* **Hệ điều hành: ** Windows.
+---
 
-### Các bước cài đặt
-* **Clone dự án:** git clone [https://github.com/Tunaanhgamedev/2D_TopDown.git](https://github.com/Tunaanhgamedev/2D_TopDown.git)
-* **Mở dự án:** Khởi động Unity Hub -> Add project from disk -> Chọn thư mục dự án.
-* **Trải nghiệm:** Mở Scene đăng nhập hoặc Main Scene trong thư mục Assets/Scenes và nhấn nút Play.
+## ✨ Key Features
 
-## 🤝 Đóng góp (Contributing)
-* **Mọi đóng góp, báo lỗi (Issues) hay yêu cầu tính năng (Pull Requests) đều được chào đón để giúp dự án hoàn thiện hơn. Vui lòng tạo Issue để thảo luận trước khi tạo Pull Request lớn.
+### 🎮 Gameplay
 
-## 📄 Giấy phép (License)
+* 8-direction movement with smooth input handling
+* Dash mechanic with cooldown
+* Weapon switching system
+* Real-time combat interactions
 
-#Phát triển bởi Tunaanhgamedev ☕
+### 🎥 Camera System
+
+* Cinemachine-based smooth follow
+* Camera boundaries using Confiner
+* Dynamic tracking for better player experience
+
+### 🎨 Graphics & Effects
+
+* Custom shaders using ShaderLab & HLSL
+* Optimized 2D rendering pipeline
+* Pixel-art friendly workflow
+
+### 🧠 Architecture
+
+* Modular and scalable code structure
+* ScriptableObject-driven configuration
+* Separation of concerns (Gameplay / Systems / Data)
+
+---
+
+## 🧩 Tech Stack
+
+| Category  | Technology       |
+| --------- | ---------------- |
+| Engine    | Unity 2022.3 LTS |
+| Language  | C#               |
+| Camera    | Cinemachine      |
+| Rendering | ShaderLab / HLSL |
+| UI        | TextMesh Pro     |
+
+---
+
+## 🎯 Controls
+
+| Input         | Action         |
+| ------------- | -------------- |
+| W / A / S / D | Move           |
+| Mouse Left    | Attack         |
+| Space         | Dash           |
+| 1 → 5         | Switch weapons |
+
+---
+
+## 📁 Project Architecture
+
+```bash
+2D_TopDown
+├── Assets
+│   ├── Animations
+│   ├── Materials
+│   ├── Prefabs
+│   ├── Scenes
+│   ├── ScriptableObjects
+│   ├── Scripts
+│   │   ├── Core        # Game loop, managers
+│   │   ├── Player      # Player logic
+│   │   ├── Enemy       # Enemy AI
+│   │   ├── Combat      # Attack, damage system
+│   │   └── Systems     # Camera, Input, UI
+│   ├── Sprites
+│   └── Tilemap
+├── Packages
+└── ProjectSettings
+```
+
+---
+
+## ⚙️ Getting Started
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/Tunaanhgamedev/2D_TopDown.git
+```
+
+### 2. Open in Unity
+
+* Open Unity Hub
+* Click **Add project from disk**
+* Select the cloned folder
+
+### 3. Run
+
+* Open `Main Scene`
+* Click **Play**
+
+---
+
+## 🧪 Development Highlights
+
+### ✔ Clean Code Practices
+
+* Organized folder structure
+* Reusable components
+* Decoupled systems
+
+### ✔ Performance Considerations
+
+* Optimized sprite rendering
+* Lightweight systems design
+
+### ✔ Scalability
+
+* Easy to add new weapons, enemies, or mechanics
+* Designed for future expansion
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="docs/screenshot1.png" width="400"/>
+  <img src="docs/screenshot2.png" width="400"/>
+</p>
+
+---
+
+## 🎥 Demo Video
+
+> Add your gameplay video here (YouTube recommended)
+
+---
+
+## 🛣️ Roadmap
+
+* [ ] Enemy AI behaviors (patrol, chase, attack)
+* [ ] Health & damage system
+* [ ] UI system (HUD, menu)
+* [ ] Sound & VFX polish
+* [ ] Mobile support
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+```bash
+# Fork → Create branch → Commit → Pull Request
+```
+
+---
+
+## 📜 License
+
+MIT License (recommended)
+
+---
+
+## 👨‍💻 Author
+
+**Tunaanhgamedev**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub — it really helps!
