@@ -82,11 +82,6 @@ This project is a **top-down shooter prototype** designed to demonstrate:
 │   ├── Scenes
 │   ├── ScriptableObjects
 │   ├── Scripts
-│   │   ├── Core        # Game loop, managers
-│   │   ├── Player      # Player logic
-│   │   ├── Enemy       # Enemy AI
-│   │   ├── Combat      # Attack, damage system
-│   │   └── Systems     # Camera, Input, UI
 │   ├── Sprites
 │   └── Tilemap
 ├── Packages
@@ -154,8 +149,7 @@ git clone https://github.com/Tunaanhgamedev/2D_TopDown.git
 * [ ] Enemy AI behaviors (patrol, chase, attack)
 * [ ] Health & damage system
 * [ ] UI system (HUD, menu)
-* [ ] Sound & VFX polish
-* [ ] Mobile support
+* [ ] VFX polish
 
 ---
 
@@ -171,7 +165,6 @@ Contributions are welcome!
 
 ## 📜 License
 
-MIT License (recommended)
 
 ---
 
