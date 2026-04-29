@@ -147,8 +147,6 @@ git clone https://github.com/Tunaanhgamedev/2D_TopDown.git
 
 ## 🎥 Demo Video
 
-> Add your gameplay video here (YouTube recommended)
-
 ---
 
 ## 🛣️ Roadmap
