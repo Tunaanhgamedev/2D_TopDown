@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e082bc76b7bde7b4cbb1c1fc9872ba0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
+  moveSpeed: 10
 --- !u!95 &3393962579590865811
 Animator:
   serializedVersion: 5
@@ -305,7 +305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 7
-  deathVFXPrefab: {fileID: 2099628724988221825, guid: 09bcda9d22cdc2e40a8ebf192e27b81d, type: 3}
+  deathVFXPrefab: {fileID: 2099628724988221825, guid: 1c439a072f3c46343bdbbac690ebfa77, type: 3}
   knockBackThrust: 15
 --- !u!114 &5852719904464347121
 MonoBehaviour:
