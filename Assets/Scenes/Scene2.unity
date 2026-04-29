@@ -411,13 +411,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1628331490}
     m_Modifications:
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: burstCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: angleSpread
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: bulletMoveSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: startingDistance
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: projectilesPerBurst
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_Name
       value: Ghost (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2517,11 +2537,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.73
+      value: -5.9
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.82
+      value: -6.16
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2622,21 +2642,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1628331490}
     m_Modifications:
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: burstCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: angleSpread
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: bulletMoveSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: startingDistance
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: projectilesPerBurst
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_Name
       value: Ghost (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.01
+      value: 5.67
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.77
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3029,21 +3069,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1628331490}
     m_Modifications:
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: burstCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: angleSpread
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: bulletMoveSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: startingDistance
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311915298614131179, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
+      propertyPath: projectilesPerBurst
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_Name
       value: Ghost (3)
       objectReference: {fileID: 0}
     - target: {fileID: 4715573132391139103, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.88
+      value: 3.21
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7600002
+      value: 3.83
       objectReference: {fileID: 0}
     - target: {fileID: 6554649151647152807, guid: c56e00abcbc397d44b0dbd21749dd711, type: 3}
       propertyPath: m_LocalPosition.z
