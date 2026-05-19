@@ -35,4 +35,9 @@ public class Grape : MonoBehaviour, IEnemy
     {
         Instantiate(grapeProjectilePrefab, transform.position, Quaternion.identity);
     }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
 }

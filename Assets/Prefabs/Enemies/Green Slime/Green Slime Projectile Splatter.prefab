@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7242830282023044368}
   - component: {fileID: 4604410376342317658}
   - component: {fileID: 7738651243127040948}
-  - component: {fileID: 9036115976267668758}
+  - component: {fileID: 2547681932679998965}
   m_Layer: 0
   m_Name: Green Slime Projectile Splatter
   m_TagString: Untagged
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeTime: 0.6
---- !u!114 &9036115976267668758
+--- !u!114 &2547681932679998965
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,6 +144,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1650762209602199556}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e933429b2418ba545ba76dfec796c85e, type: 3}
+  m_Script: {fileID: 11500000, guid: 65776a1f868591141ba250e20d7a252b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -133,4 +133,9 @@ public class Shooter : MonoBehaviour, IEnemy
 
         return pos;
     }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
 }

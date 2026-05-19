@@ -6,7 +6,7 @@ public class EnemyAI : MonoBehaviour
 {
     [SerializeField] private float roamChangeDirFloat = 2f;
     [SerializeField] private float attackRange = 5f;
-    [SerializeField] private MonoBehaviour enemyType;
+    private IEnemy enemyType;
     [SerializeField] private float attackCooldown = 2f;
     [SerializeField] private bool stopMovingWhileAttacking = false;
 
@@ -27,6 +27,9 @@ public class EnemyAI : MonoBehaviour
     private void Awake()
     {
         enemyPathfinding = GetComponent<EnemyPathfinding>();
+
+        enemyType = GetComponent<IEnemy>();
+
         state = State.Roaming;
     }
 
@@ -82,7 +85,7 @@ public class EnemyAI : MonoBehaviour
         {
 
             canAttack = false;
-            (enemyType as IEnemy).Attack();
+            enemyType.Attack();
 
             if(stopMovingWhileAttacking)
             {
