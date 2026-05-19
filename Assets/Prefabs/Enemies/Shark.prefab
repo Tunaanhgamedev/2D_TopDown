@@ -12,16 +12,17 @@ GameObject:
   - component: {fileID: 3359858681208243039}
   - component: {fileID: 4044514782921797157}
   - component: {fileID: 448429016893439155}
-  - component: {fileID: 6749750390472580800}
   - component: {fileID: 351450048196194687}
   - component: {fileID: 928539676468727588}
   - component: {fileID: 570067166573042778}
   - component: {fileID: 5432711157103073060}
   - component: {fileID: 3675632434153190351}
-  - component: {fileID: 310085771924724359}
   - component: {fileID: 3851975565515022408}
   - component: {fileID: 7502478802486351493}
   - component: {fileID: 8822341033442424862}
+  - component: {fileID: 807568874179508404}
+  - component: {fileID: 2255796478188019687}
+  - component: {fileID: -4894950116870383195}
   m_Layer: 0
   m_Name: Shark
   m_TagString: Untagged
@@ -128,8 +129,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.038071692, y: -0.06192845}
-  m_Size: {x: 0.88435066, y: 0.88435066}
+  m_Offset: {x: -0.036858737, y: 1.1484861}
+  m_Size: {x: 1.2647663, y: 2.1062927}
   m_Direction: 0
 --- !u!50 &448429016893439155
 Rigidbody2D:
@@ -158,23 +159,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &6749750390472580800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4715573132391139103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1a1488b26bf2684c9cfd1862923e82c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  roamChangeDirFloat: 2
-  attackRange: 0
-  enemyType: {fileID: 0}
-  attackCooldown: 0.3
-  stopMovingWhileAttacking: 1
 --- !u!114 &351450048196194687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b33333d2c653faf4d94ba4873db8d7f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 20
+  startingHealth: 40
   deathVFXPrefab: {fileID: 2099628724988221825, guid: 09bcda9d22cdc2e40a8ebf192e27b81d, type: 3}
   knockBackThrust: 15
 --- !u!114 &570067166573042778
@@ -242,18 +226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0d65fa7515ba7439d141842fd94bda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!210 &310085771924724359
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4715573132391139103}
-  m_Enabled: 1
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_SortAtRoot: 0
 --- !u!114 &3851975565515022408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,3 +358,42 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &807568874179508404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715573132391139103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e587a3449c230488a6c35e18b49ea9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2255796478188019687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715573132391139103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfd56f7b7d489df42bc9f9a036af1555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseRange: 10
+  stopDistance: 0.5
+  attackCooldown: 1
+--- !u!210 &-4894950116870383195
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715573132391139103}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
