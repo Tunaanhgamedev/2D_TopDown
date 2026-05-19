@@ -112,7 +112,7 @@ Assets/
 
 **Tunaanhgamedev**
 * GitHub: [@Tunaanhgamedev](https://github.com/Tunaanhgamedev)
-* Email: [anh2005qpqb@gmail.com]
+* Email: anh2005qpqb@gmail.com
 
 ---
 
