@@ -112,7 +112,7 @@ Assets/
 
 **Tunaanhgamedev**
 * GitHub: [@Tunaanhgamedev](https://github.com/Tunaanhgamedev)
-* Email: [liên hệ của bạn]
+* Email: [EMAIL_ADDRESS](anh2005qpqb@gmail.com)
 
 ---
 
