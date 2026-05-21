@@ -9,12 +9,20 @@ public class AreaExit : MonoBehaviour
     [SerializeField] private string sceneTransitionName;
 
     private float waitToLoadTime = 1f;
+    private bool canTeleport = false;
+
+    private void Start()
+    {
+        StartCoroutine(EnableTeleportRoutine());
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if(!canTeleport) { return; }
 
         if (other.gameObject.GetComponent<PlayerController>())
         {
+            Debug.Log("TRIGGER: " + gameObject.name);
             SceneManagement.Instance.SetTransitionName(sceneTransitionName);
             UIFade.Instance.FadeToBlack();
             StartCoroutine(LoadSceneRoutine());
@@ -30,5 +38,12 @@ public class AreaExit : MonoBehaviour
         }
 
         SceneManager.LoadScene(sceneToLoad);
+    }
+
+    private IEnumerator EnableTeleportRoutine()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        canTeleport = true;
     }
 }
