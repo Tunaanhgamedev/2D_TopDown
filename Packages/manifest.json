@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.arongranberg.astar": "https://github.com/NarDevGH/Unity-AstarPathfindingProject.git",
     "com.unity.cinemachine": "2.10.7",
     "com.unity.collab-proxy": "2.11.3",
     "com.unity.feature.2d": "2.0.1",

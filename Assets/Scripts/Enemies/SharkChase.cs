@@ -6,6 +6,8 @@ public class SharkChase : MonoBehaviour
     [SerializeField] private float chaseRange = 10f;
     [SerializeField] private float stopDistance = .5f;
     [SerializeField] private float attackCooldown = 1f;
+    [SerializeField] private float chaseMoveSpeed = 5f;
+    [SerializeField] private float roamMoveSpeed = 2f;
 
     [Header("Roam")]
     [SerializeField] private float roamChangeDirTime = 2f;
@@ -44,6 +46,7 @@ public class SharkChase : MonoBehaviour
         // =========================
         if (distance <= chaseRange)
         {
+            pathfinding.SetMoveSpeed(chaseMoveSpeed);
             // Di chuyển tới player
             if (distance > stopDistance)
             {
@@ -70,6 +73,7 @@ public class SharkChase : MonoBehaviour
         // =========================
         else
         {
+            pathfinding.SetMoveSpeed(roamMoveSpeed);
             pathfinding.MoveTo(roamDirection);
 
             if (roamTimer >= roamChangeDirTime)

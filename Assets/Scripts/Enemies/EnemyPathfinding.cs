@@ -1,10 +1,11 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyPathfinding : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 2f;
+    private float defaultMoveSpeed;
 
     private Rigidbody2D rb;
     private Vector2 moveDir;
@@ -41,5 +42,15 @@ public class EnemyPathfinding : MonoBehaviour
     public void StopMoving()
     {
         moveDir = Vector3.zero;
+    }
+
+    public void SetMoveSpeed(float newSpeed)
+    {
+        moveSpeed = newSpeed;
+    }
+
+    public void ResetMoveSpeed()
+    {
+        moveSpeed = defaultMoveSpeed;
     }
 }

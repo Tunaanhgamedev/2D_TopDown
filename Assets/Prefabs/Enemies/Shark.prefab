@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e082bc76b7bde7b4cbb1c1fc9872ba0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 2
+  moveSpeed: 3
 --- !u!114 &928539676468727588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -383,8 +383,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseRange: 10
-  stopDistance: 0.5
-  attackCooldown: 1
+  stopDistance: 0.4
+  attackCooldown: 1.7
+  chaseMoveSpeed: 7
+  roamMoveSpeed: 2
+  roamChangeDirTime: 2
 --- !u!210 &-4894950116870383195
 SortingGroup:
   m_ObjectHideFlags: 0

@@ -1,5 +1,23 @@
 {
   "dependencies": {
+    "com.arongranberg.astar": {
+      "version": "https://github.com/NarDevGH/Unity-AstarPathfindingProject.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.assetbundle": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.physics2d": "1.0.0",
+        "com.unity.modules.terrain": "1.0.0",
+        "com.unity.modules.terrainphysics": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.ugui": "1.0.0"
+      },
+      "hash": "a587bc2fe77c15ca66109969302cd00cf30d0404"
+    },
     "com.unity.2d.animation": {
       "version": "9.2.0",
       "depth": 1,
