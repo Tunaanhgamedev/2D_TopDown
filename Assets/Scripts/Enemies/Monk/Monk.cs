@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Monk : MonoBehaviour
+public class Monk : MonoBehaviour, IEnemy
 {
     private Animator myAnimator;
     private SpriteRenderer spriteRenderer;
@@ -57,6 +57,8 @@ public class Monk : MonoBehaviour
 
     public void DamagePlayerAnimEvent()
     {
-        PlayerHealth.Instance.TakeDamage(1, transform);
+        {
+            PlayerHealth.Instance.TakeDamage(1, transform);
+        }
     }
 }
