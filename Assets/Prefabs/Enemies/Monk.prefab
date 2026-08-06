@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 3359858681208243039}
   - component: {fileID: 4044514782921797157}
   - component: {fileID: 448429016893439155}
-  - component: {fileID: 6749750390472580800}
   - component: {fileID: 351450048196194687}
   - component: {fileID: 928539676468727588}
   - component: {fileID: 570067166573042778}
   - component: {fileID: 5432711157103073060}
   - component: {fileID: 3675632434153190351}
+  - component: {fileID: 6822513195060648224}
+  - component: {fileID: 5411086784629515603}
   - component: {fileID: 310085771924724359}
   - component: {fileID: 3851975565515022408}
   - component: {fileID: -6762526619490018026}
@@ -158,23 +159,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &6749750390472580800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4715573132391139103}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1a1488b26bf2684c9cfd1862923e82c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  roamChangeDirFloat: 2
-  attackRange: 0
-  enemyType: {fileID: 0}
-  attackCooldown: 0.3
-  stopMovingWhileAttacking: 1
 --- !u!114 &351450048196194687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,6 +226,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc0d65fa7515ba7439d141842fd94bda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6822513195060648224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715573132391139103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98b4fe872358ced4a9cadcd4d93224e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5411086784629515603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715573132391139103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f207139d3ac860a4590fb152b3cc432c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chaseRange: 15
+  stopDistance: 1
+  attackCooldown: 0.5
+  chaseMoveSpeed: 5
+  roamMoveSpeed: 2
+  roamChangeDirTime: 2
 --- !u!210 &310085771924724359
 SortingGroup:
   m_ObjectHideFlags: 0
