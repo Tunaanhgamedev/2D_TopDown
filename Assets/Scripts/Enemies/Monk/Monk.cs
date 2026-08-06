@@ -21,7 +21,9 @@ public class Monk : MonoBehaviour, IEnemy
     public void Attack()
     {
         if (isDead) return;
+
         myAnimator.SetTrigger(ATTACK_HASH);
+
         if (transform.position.x < PlayerController.Instance.transform.position.x)
         {
             spriteRenderer.flipX = false;
@@ -37,14 +39,13 @@ public class Monk : MonoBehaviour, IEnemy
         if (isDead) return;
 
         isDead = true;
+
         myAnimator.SetTrigger(DIE_HASH);
+
         GetComponent<Collider2D>().enabled = false;
-        MonkChase monkChase = GetComponent<MonkChase>();
-        if (monkChase != null)
-        {
-            monkChase.enabled = false;
-        }
+        GetComponent<MonkChase>().enabled = false;
         GetComponent<EnemyPathfinding>().StopMoving();
+
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
 
         if (rb != null)
@@ -57,8 +58,7 @@ public class Monk : MonoBehaviour, IEnemy
 
     public void DamagePlayerAnimEvent()
     {
-        {
-            PlayerHealth.Instance.TakeDamage(1, transform);
-        }
+        PlayerHealth.Instance.TakeDamage(1, transform);
     }
 }
+
